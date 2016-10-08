@@ -25,24 +25,24 @@ A software development framework to program parallel applications. The DOL allow
 
     $ sudo apt-get install openjdk-7-jdk , 执行结果如下：
 
-![openjdk-7-jdk](/Users/lanhaishan/Desktop/openjdk-7-jdk.png)
+![openjdk-7-jdk](https://raw.githubusercontent.com/Lhandsome3/ES2016_14353129/master/openjdk-7-jdk.png)
 
     $ sudo apt-get install unzip , 执行结果如下：
 
-![unzip](/Users/lanhaishan/Desktop/unzip.png)
+![unzip](https://raw.githubusercontent.com/Lhandsome3/ES2016_14353129/master/unzip.png)
  
 ###3.下载文件
 可以使用虚拟机直接下载，也可以从主机拷贝到虚拟机中。因为ta在实验压缩包中已经给出所需要下载的文件，所以只需要将systemc-2.3.1.tgz文件和dol_ethz.zip文件夹拷贝到ubuntu中即可，如下：
 
-![systemc-2.3.1](/Users/lanhaishan/Desktop/systemc-2.3.1.png)
-![dol_ethz](/Users/lanhaishan/Desktop/dol_ethz.png)
+![systemc-2.3.1](https://raw.githubusercontent.com/Lhandsome3/ES2016_14353129/master/systemc-2.3.1.png)
+![dol_ethz](https://raw.githubusercontent.com/Lhandsome3/ES2016_14353129/master/dol_ethz.png)
 
 ###4.解压文件
 新建dol的文件夹,执行语句$ mkdir dol
 
 将dolethz.zip解压到dol文件夹中，执行语句$ unzip dol_ethz.zip -d dol
 
-![dol](/Users/lanhaishan/Desktop/dol.png)
+![dol](https://raw.githubusercontent.com/Lhandsome3/ES2016_14353129/master/dol.png)
 
 解压systemc，执行语句$ tar -zxvf systemc-2.3.1.tgz
 
@@ -71,13 +71,13 @@ A software development framework to program parallel applications. The DOL allow
     
 编译完后文件目录如下：
 
-![ls](/Users/lanhaishan/Desktop/ls.png)
+![ls](https://raw.githubusercontent.com/Lhandsome3/ES2016_14353129/master/ls.png)
 
 可以看到include,lib-linux64（因为我装的是64位的）
 
 记录当前的工作路径（后面会有用处），如下：
 
-![road](/Users/lanhaishan/Desktop/road.png)
+![road](https://raw.githubusercontent.com/Lhandsome3/ES2016_14353129/master/road.png)
 
 这里表示我当前的工作路径为/home/paralells/systemc-2.3.1
 
@@ -93,7 +93,7 @@ A software development framework to program parallel applications. The DOL allow
 
 因为我的是64位系统，所以修改如下：
 
-![64](/Users/lanhaishan/Desktop/64.png)
+![64](https://raw.githubusercontent.com/Lhandsome3/ES2016_14353129/master/64.png)
 
 然后编译
 
@@ -111,11 +111,11 @@ A software development framework to program parallel applications. The DOL allow
 
 成功结果如图：
 
-![concat](/Users/lanhaishan/Desktop/concat.png)
+![concat](https://raw.githubusercontent.com/Lhandsome3/ES2016_14353129/master/concat.png)
 
 ###7.dol配置成功
 
-##三.实验感想、心得
+##三.实验感想
 对于实验一：
 
 实验一就是跟着文档的步骤一步步进行配置即可，在配置的过程中没有出现什么问题，一切都是按照文档的步骤正常进行。
