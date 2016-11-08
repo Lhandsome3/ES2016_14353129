@@ -10,7 +10,7 @@
 ####2. ROS安装过程
 
 
-* 1. 配置Ubuntu软件仓库，以允许“restricted”、“universe”、“multiverse”这三种安装模式。            
+  1. 配置Ubuntu软件仓库，以允许“restricted”、“universe”、“multiverse”这三种安装模式。            
      这一步其实可以省略，因为我的ubuntu系统已经默认这三种模式。
   2. 建立sourse.list              
      在终端中输入命令：       
